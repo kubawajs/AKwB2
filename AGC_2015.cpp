@@ -367,12 +367,12 @@ int main()
 
     showInfo(checkAdj, checkL, checkM, vertex, tabkapomocka, vertex2, vertexTab);
 
-    cout<<endl<<"0. Zakoncz program"<<endl<<endl;
+    cout<<endl<<"0. End"<<endl<<endl;
     cin>>choose;
 
     while(choose!=0)
     {
-        cout<<"\nBLAD! Wpisano bledna wartosc. Wpisz 0, aby zakonczyc.";
+        cout<<"\nERROR! Wrong value. Write 0, to end.";
         cin>>choose;
     }
 
