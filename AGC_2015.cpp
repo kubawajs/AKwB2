@@ -367,12 +367,12 @@ int main()
 
     showInfo(checkAdj, checkL, checkM, vertex, tabkapomocka, vertex2, vertexTab);
 
-    cout<<endl<<"0. End"<<endl<<endl;
+    cout<<endl<<"0. Quit"<<endl<<endl;
     cin>>choose;
 
     while(choose!=0)
     {
-        cout<<"\nERROR! Wrong value. Write 0, to end.";
+        cout<<"\nERROR! Wrong value. Write 0, to quit.";
         cin>>choose;
     }
 
